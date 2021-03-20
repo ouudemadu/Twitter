@@ -67,35 +67,39 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tt-uy-x1c">
                                             <rect key="frame" x="88" y="11" width="271" height="21"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="271" id="Hs6-JY-6ct"/>
-                                                <constraint firstAttribute="height" constant="21" id="fCf-sm-RIU"/>
+                                                <constraint firstAttribute="height" constant="21" id="DlR-Kv-rnD"/>
+                                                <constraint firstAttribute="width" constant="271" id="aYJ-Lk-WOu"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2K-Mo-MqR">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2K-Mo-MqR">
                                             <rect key="frame" x="88" y="36" width="271" height="73"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k2x-zw-oqf">
                                             <rect key="frame" x="15" y="11" width="65" height="65"/>
                                             <color key="backgroundColor" red="0.14310941099999999" green="0.61985617879999999" blue="0.9490578771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="65" id="FuY-lx-cb1"/>
+                                                <constraint firstAttribute="width" constant="65" id="H4Z-TF-T5d"/>
+                                            </constraints>
                                         </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="leading" secondItem="k2x-zw-oqf" secondAttribute="trailing" constant="8" symbolic="YES" id="4tv-pw-Ccr"/>
-                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="leading" secondItem="k2x-zw-oqf" secondAttribute="trailing" constant="8" id="ADj-gL-5BH"/>
-                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="top" secondItem="k2x-zw-oqf" secondAttribute="top" id="CK4-Pr-AN1"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="k2x-zw-oqf" secondAttribute="bottom" constant="33" id="He6-Uc-2T7"/>
-                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="trailing" secondItem="b2K-Mo-MqR" secondAttribute="trailing" id="SDq-5J-L0x"/>
-                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="top" secondItem="cSN-Gl-de8" secondAttribute="topMargin" id="STq-WZ-jvb"/>
-                                        <constraint firstItem="b2K-Mo-MqR" firstAttribute="top" secondItem="7Tt-uy-x1c" secondAttribute="bottom" constant="4" id="bMY-LK-MJg"/>
-                                        <constraint firstItem="k2x-zw-oqf" firstAttribute="leading" secondItem="cSN-Gl-de8" secondAttribute="leadingMargin" constant="-1" id="o9X-et-9V8"/>
-                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="trailing" secondItem="cSN-Gl-de8" secondAttribute="trailingMargin" id="rKY-JD-Pjm"/>
-                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="leading" secondItem="b2K-Mo-MqR" secondAttribute="leading" id="sXf-fm-wD0"/>
+                                        <constraint firstItem="b2K-Mo-MqR" firstAttribute="bottom" secondItem="cSN-Gl-de8" secondAttribute="bottomMargin" id="CbH-JH-IDY"/>
+                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="trailing" secondItem="b2K-Mo-MqR" secondAttribute="trailing" id="OyN-sB-BnB"/>
+                                        <constraint firstItem="k2x-zw-oqf" firstAttribute="leading" secondItem="cSN-Gl-de8" secondAttribute="leadingMargin" constant="-1" id="QHv-WW-Bco"/>
+                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="top" secondItem="k2x-zw-oqf" secondAttribute="top" id="Ubw-Qg-eAD"/>
+                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="trailing" secondItem="cSN-Gl-de8" secondAttribute="trailingMargin" id="YCe-Tp-bbW"/>
+                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="leading" secondItem="b2K-Mo-MqR" secondAttribute="leading" id="hNh-kW-Jj0"/>
+                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="top" secondItem="cSN-Gl-de8" secondAttribute="topMargin" id="i6o-9y-roZ"/>
+                                        <constraint firstItem="b2K-Mo-MqR" firstAttribute="top" secondItem="7Tt-uy-x1c" secondAttribute="bottom" constant="4" id="o4S-T4-A0Z"/>
+                                        <constraint firstItem="7Tt-uy-x1c" firstAttribute="leading" secondItem="k2x-zw-oqf" secondAttribute="trailing" constant="8" symbolic="YES" id="q98-6f-JjQ"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="k2x-zw-oqf" secondAttribute="bottom" constant="33" id="uMt-J9-aVD"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
